@@ -20,8 +20,8 @@ menuButton.addEventListener('click',function(){
 },false)
 
 //关闭菜单
-$('.menu-list').click(function () {
-	heoWeb.hideMenu();
+document.querySelector('.menu-list').addEventListener('click', function () {
+  heoWeb.hideMenu();
 });
 
 //阻止菜单滚动
